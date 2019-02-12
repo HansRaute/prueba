@@ -1,0 +1,103 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #000
+}
+
+ body *{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-weight: 500;
+  font-size: 50px
+}
+
+h2{
+  font-weight: 500;
+  font-size: 40px
+}
+
+p{
+  font-weight: 300;
+  padding-bottom: 1em
+
+}
+
+header{
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.grande{
+  width: 100%;
+}
+
+.desc-section{
+  color: #ffffff;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  background-color: #000000;
+}
+
+.icons-section, footer{
+  background-color: #1e1a13;
+  color:  #ffffff;
+
+}
+
+.imagenes img{
+  background-color: #000000;
+  display: inline-block;
+  height: 250px;
+  margin: 2em
+
+
+}
+
+.seccion{
+  padding: 3em 11em;
+}
+
+.seccion img{
+  width: 30%;
+  margin-left: 5em;
+}
+
+footer{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px
+
+}
+
+footer a{
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #ffffff
+
+}
+
+footer p, footer a {
+  padding-top: 1em
+
+}
+
+.icons-section{
+text-align: center;
+padding-top: 1em;
+}
+
+.icono {
+  display: inline-block;
+  width: 20%;
+  padding: 2em
+}
+
+.icono p{
+  padding-top: 1em;
+  font-size: 25px
+}

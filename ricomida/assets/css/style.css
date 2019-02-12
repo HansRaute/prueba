@@ -1,0 +1,59 @@
+body *{
+  font-family: 'Cabin', sans-serif;
+}
+
+hr{
+  border-top: 2px solid rgba(0,0,0,1);
+}
+
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+
+.carousel-indicators li.active{
+  background-color: #373A3C;
+}
+
+.lobster{
+  font-family: 'Lobster';
+  font-size: 2.31em;
+}
+
+header h1{
+  font-size: 46px;
+}
+
+header p{
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 600px){
+  header{
+    text-align: center;
+  }
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.newsletter p{
+  font-size: 30px;
+}
+
+.newsletter span{
+  font-size: 30px;
+}
+
+ul, ol{
+  padding-left: 0;
+}
+
+.css-1ak77m0{
+  display: none;
+}

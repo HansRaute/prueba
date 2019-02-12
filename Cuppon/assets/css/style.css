@@ -1,0 +1,20 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+nav img{
+  height: 25px
+}
+
+.verde{
+  font-size: 1.25em;
+
+}
+
+footer img{
+  height: 1.5em
+}
+
+.footer{
+  background-color: #fff;
+  color: #707070;
+}
