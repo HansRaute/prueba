@@ -1,0 +1,82 @@
+body *{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+.morado{
+ background-color: #660066;
+}
+
+header{
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56em;
+    position: relative;
+}
+
+.alto{
+  font-size: 40px;
+}
+
+.abajo{
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+hr{
+    border-top: 2px solid rgba(255,255,255,1);
+}
+
+.alto2{
+  font-size: 72px;
+}
+
+.negro{
+  color: #373A3C
+}
+
+p{
+  line-height: 2.5;
+}
+
+footer{
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  header{
+      background-image: url('../img/bg_hero.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 20em;
+      position: relative;
+  }
+  .abajo{
+    position: absolute;
+    padding-top: 5em;
+    bottom: 0;
+    left: 30%;
+    padding-bottom: 1em
+  }
+
+.alto2{
+  font-size: 40px;
+}
+
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+
+.carousel-indicators li.active{
+  background-color: #373A3C;
+}
