@@ -15,5 +15,7 @@ $(function(){
   });
 
   $('[data-toggle="tooltip"]').tooltip();
+  $('.lado').tooltip();
+
 
 });
