@@ -1,247 +1,242 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Magdalena</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="shortcut icon" type="image/png" href="favicon.png">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:200,600,700" rel="stylesheet">
-    <!--fontawesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!--Mi estilo-->
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Magdalena</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--icono de arriba-->
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:200,600,700" rel="stylesheet">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!--Mi estilo-->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark morado fixed-top">
+    <a class="navbar-brand ml-5 oswald font-weight-bold alto" href="#inicio">M</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto mr-5">
+        <li class="nav-item active">
+          <a class="nav-link" href="#sobre">Sobre mi <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#exp">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ultimo">Trabajos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark morado fixed-top">
-      <a class="navbar-brand ml-5 oswald font-weight-bold alto" href="#inicio">M</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto mr-5">
-          <li class="nav-item active">
-            <a class="nav-link" href="#sobre">Sobre mi <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#exp">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#ultimo">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-        </ul>
+  <!--Header con imagen-->
+  <header  id="inicio" class="mb-5">
+    <div class="abajo mb-5">
+      <h1 class="oswald font-weight-200 text-white text-center alto2">YO SOY</h1>
+      <hr>
+      <h1 class="oswald font-weight-bold text-white text-center alto2">MAGDALENA</h1>
+    </div>
+  </header>
+
+  <!--Seccion descriptiva (desaparece en mobie)-->
+  <section id="sobre" class="sobre_mi d-none d-sm-block d-md-block container">
+    <h2 class="font-weight-600 text-center my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h2>
+    <span class="text-center d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
+    <div class="row my-5">
+      <div class="col-6">
+        <p class="font-weight-400 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        <button type="button" class="btn btn-primary btn-lg lado" data-toggle="modal" data-target="#p1" data-placement="right" title="ver mas informacion">Mas info</button>
       </div>
-    </nav>
+      <div class="col-6">
+        <p class="font-weight-400 text-left" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        <button type="button" class="btn btn-primary btn-lg lado" data-toggle="modal" data-target="#p2" data-placement="right" title="ver mas informacion">Mas info</button>
+      </div>
+    </div>
 
-    <header  id="inicio" class="mb-5">
-      <div class="abajo mb-5">
-        <h1 class="oswald font-weight-200 text-white text-center alto2">YO SOY</h1>
-        <hr>
-        <h1 class="oswald font-weight-bold text-white text-center alto2">MAGDALENA</h1>
+    <!--Modal que aparece al presionar "Mas info" 1-->
+    <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Mi colegio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid my-3" src="assets/img/cole.png" alt="Colegio Aleman de osorno">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationt non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniat esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cons non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</buttton>
+            </div>
+          </div>
+        </div>
       </div>
 
-    </header>
-
-<section id="sobre" class="sobre_mi d-none d-sm-block d-md-block container">
- <h2 class="font-weight-600 text-center my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h2>
- <span class="text-center d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
- <div class="row my-5">
-   <div class="col-6">
-     <p class="font-weight-400 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-     <button type="button" class="btn btn-primary btn-lg lado" data-toggle="modal" data-target="#p1" data-placement="right" title="ver mas informacion">Mas info</button>
-   </div>
-   <div class="col-6">
-     <p class="font-weight-400 text-left" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-     <button type="button" class="btn btn-primary btn-lg lado" data-toggle="modal" data-target="#p2" data-placement="right" title="ver mas informacion">Mas info</button>
-   </div>
- </div>
-
- <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog" role="document">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLabel">Mi colegio</h5>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-         </button>
-       </div>
-       <div class="modal-body">
-         <img class="img-fluid my-3" src="assets/img/cole.png" alt="Colegio Aleman de osorno">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</buttton>
-       </div>
-     </div>
-   </div>
- </div>
-
- <div class="modal fade" id="p2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog" role="document">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLabel">Puerto Montt</h5>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-         </button>
-       </div>
-       <div class="modal-body">
-         <img class="img-fluid my-3" src="assets/img/montt.jpg" alt="Puerto Montt">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</buttton>
-       </div>
-     </div>
-   </div>
- </div>
-
-
-</section>
-
-<section id="exp" class="mt-5 d-none d-sm-block d-md-block">
-  <h2 class="oswald font-weight-bold negro text-center alto">MI EXPERIENCIA</h2>
-  <span class="text-center d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
-
-  <div id="carouselExampleIndicators" class="carousel slide container text-center d-none d-xs-block d-sm-block" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row p-5">
-              <div class="col-4">
-                <i class="fab fa-python fa-5x" data-toggle="tooltip" data-placement="right" title="Phyton"></i>
-              </div>
-              <div class="col-4">
-                <i class="fas fa-puzzle-piece fa-5x" data-toggle="tooltip" data-placement="right" title="Puzzles"></i>
-              </div>
-              <div class="col-4">
-                <i class="fab fa-playstation fa-5x" data-toggle="tooltip" data-placement="right" title="playstation"></i>
+      <!--Modal que aparece al presionar "Mas info" 2-->
+      <div class="modal fade" id="p2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Puerto Montt</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid my-3" src="assets/img/montt.jpg" alt="Puerto Montt">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</buttton>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row p-5">
-              <div class="col-4">
-                <i class="fas fa-university fa-5x" data-toggle="tooltip" data-placement="right" title="University"></i>
-              </div>
-              <div class="col-4">
-                <i class="fab fa-adobe fa-5x" data-toggle="tooltip" data-placement="right" title="Adobe"></i>
-              </div>
-              <div class="col-4">
-                <i class="fab fa-btc fa-5x" data-toggle="tooltip" data-placement="right" title="Bitcoin"></i>
+        </div>
+      </section>
+
+      <!--Seccion del carousel (tambien desaparece en mobile)-->
+      <section id="exp" class="mt-5 d-none d-sm-block d-md-block">
+        <h2 class="oswald font-weight-bold negro text-center alto">MI EXPERIENCIA</h2>
+        <span class="text-center d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
+
+        <div id="carouselExampleIndicators" class="carousel slide container text-center d-none d-xs-block d-sm-block" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row p-5">
+                <div class="col-4">
+                  <i class="fab fa-python fa-5x" data-toggle="tooltip" data-placement="right" title="Phyton"></i>
+                </div>
+                <div class="col-4">
+                  <i class="fas fa-puzzle-piece fa-5x" data-toggle="tooltip" data-placement="right" title="Puzzles"></i>
+                </div>
+                <div class="col-4">
+                  <i class="fab fa-playstation fa-5x" data-toggle="tooltip" data-placement="right" title="playstation"></i>
+                </div>
               </div>
             </div>
-          </div>
+            <div class="carousel-item">
+              <div class="row p-5">
+                <div class="col-4">
+                  <i class="fas fa-university fa-5x" data-toggle="tooltip" data-placement="right" title="University"></i>
+                </div>
+                <div class="col-4">
+                  <i class="fab fa-adobe fa-5x" data-toggle="tooltip" data-placement="right" title="Adobe"></i>
+                </div>
+                <div class="col-4">
+                  <i class="fab fa-btc fa-5x" data-toggle="tooltip" data-placement="right" title="Bitcoin"></i>
+                </div>
+              </div>
+            </div>
+          </section>
 
-</section>
+          <!--Seccion de los trabajos con links a las paginas-->
+          <section id="ultimo" class="morado">
+            <h2 class="text-center text-white oswald font-weight-bold pt-5 alto2">MIS ÚLTIMOS TRABAJOS</h2>
+            <span class="text-center text-white d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
 
-<section id="ultimo" class="morado">
-  <h2 class="text-center text-white oswald font-weight-bold pt-5 alto2">MIS ÚLTIMOS TRABAJOS</h2>
-  <span class="text-center text-white d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
+            <div class="card-deck m-5 px-5">
+              <div class="card" >
+                <a href="proyecto_meet_coffee/index.html"><img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet-and-coffee"></a>
+                <div class="card-body">
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                </div>
+              </div>
 
-  <div class="card-deck m-5 px-5">
-    <div class="card" >
-  <a href="proyecto_meet_coffee/index.html"><img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet-and-coffee"></a>
-  <div class="card-body">
-    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-  </div>
-</div>
+              <div class="card">
+                <a href="iguana/index.html"><img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana"></a>
+                <div class="card-body">
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                </div>
+              </div>
 
-<div class="card" >
-<a href="iguana/index.html"><img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana"></a>
-<div class="card-body">
-<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-</div>
-</div>
+              <div class="card" >
+                <a href="Suricata/index.html"><img src="assets/img/suricata.png" class="card-img-top" alt="suricata"></a>
+                <div class="card-body">
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                </div>
+              </div>
+            </div>
 
-<div class="card" >
-<a href="Suricata/index.html"><img src="assets/img/suricata.png" class="card-img-top" alt="suricata"></a>
-<div class="card-body">
-<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-</div>
-</div>
+            <div class="card-deck mx-5 pb-5 px-5 mt-5">
+              <div class="card" >
+                <a href="Cuppon/index.html"><img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon"></a>
+                <div class="card-body">
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                </div>
+              </div>
 
-  </div>
+              <div class="card">
+                <a href="ricomida/index.html"><img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida"></a>
+                <div class="card-body">
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                </div>
+              </div>
 
+              <div class="card">
+                <a href="no.html"><img src="assets/img/dmark.png" class="card-img-top" alt="dmark"></a>
+                <div class="card-body">
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                </div>
+              </div>
+            </div>
+          </section>
 
-  <div class="card-deck mx-5 pb-5 px-5 mt-5">
-    <div class="card" >
-  <a href="Cuppon/index.html"><img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon"></a>
-  <div class="card-body">
-    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-  </div>
-  </div>
+          <!--Seccion del formulario de Typeform-->
+          <section id="contacto">
+            <h2 class="text-center pt-5">Contacto</h2>
+            <span class="text-center d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
 
-  <div class="card" >
-  <a href="ricomida/index.html"><img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida"></a>
-  <div class="card-body">
-  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-  </div>
-  </div>
+            <div class="typeform-widget" data-url="https://hansraute.typeform.com/to/bdWdcy" data-transparency="50" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=bdWdcy&utm_source=typeform.com-13363962-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+          </section>
 
-  <div class="card" >
-  <a href="no.html"><img src="assets/img/dmark.png" class="card-img-top" alt="dmark"></a>
-  <div class="card-body">
-  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-  </div>
-  </div>
+          <!--Footer con links de redes sociales con target _blank-->
+          <footer class="morado text-white">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="m-0 px-5 pt-5 font-weight-bold text-center">MAGDALENA</h2>
+              </div>
+              <div class="col-md-6 pb-5">
+                <div class="ml-auto mr-5 mt-5 text-center">
+                  <a href="https://github.com/" target="_blank"><i class="fab fa-github fa-4x mx-3 text-white"></i></a>
+                  <a href="https://cl.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-4x mx-3 text-white"></i></a>
+                  <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter fa-4x mx-3 text-white"></i></a>
+                  <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-4x mx-3 text-white"></i></a>
+                </div>
+              </div>
+            </div>
+          </footer>
 
-  </div>
+          <!--jQuery 3.3.1 sin slim-->
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-</section>
+          <!--Popper JS 1.14.3-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
-<section id="contacto">
-  <h2 class="text-center pt-5">Contacto</h2>
-  <span class="text-center d-flex justify-content-center">Lorem ipsum dolor sit exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </span>
+          <!--Bootstrap JS 4.2.1-->
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-  <div class="typeform-widget" data-url="https://hansraute.typeform.com/to/bdWdcy" data-transparency="50" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=bdWdcy&utm_source=typeform.com-13363962-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-
-</section>
-
-<footer class="morado text-white">
-  <div class="row">
-    <div class="col-md-6">
-      <h2 class="m-0 px-5 pt-5 font-weight-bold text-center">MAGDALENA</h2>
-    </div>
-  <div class="col-md-6 pb-5">
-    <div class="ml-auto mr-5 mt-5 text-center">
-      <a href="https://github.com/" target="_blank"><i class="fab fa-github fa-4x mx-3 text-white"></i></a>
-      <a href="https://cl.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-4x mx-3 text-white"></i></a>
-      <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter fa-4x mx-3 text-white"></i></a>
-      <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-4x mx-3 text-white"></i></a>
-    </div>
-</div>
-  </div>
-
-
-
-
-
-</footer>
-
-<!--jQuery 3.3.1 sin slim-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-  <!--Popper JS 1.14.3-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-
-  <!--Bootstrap JS 4.2.1-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-  <!--Mi script-->
-  <script src="assets/js/script.js"></script>
-  </body>
-</html>
+          <!--Mi script-->
+          <script src="assets/js/script.js"></script>
+        </body>
+        </html>
